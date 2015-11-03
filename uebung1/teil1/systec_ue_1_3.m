@@ -6,8 +6,8 @@ x2neu = 0;
 
 l = 10;
 g = 9.80665;
-tend = 90;
-tstep = 0.001;
+tend = 20;
+tstep = 0.01;
 
 vec_x1neu = [];
 vec_x2neu = [];
