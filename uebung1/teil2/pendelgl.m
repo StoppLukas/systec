@@ -15,5 +15,5 @@ function x_dot = pendelgl(t, x)
 		x(2) = x2_new;
 	end
 
-	x_dot = cat(2, vec_x1_new, vec_x2_new);
+	x_dot = [vec_x1_new; vec_x2_new];
 end
