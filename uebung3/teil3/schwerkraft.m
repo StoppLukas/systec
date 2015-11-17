@@ -1,6 +1,6 @@
 function Fg = schwerkraft(t, x, p)
-% a = x(1)
-m = p(1);
+m = p(4);
+g = p(5);
 
-Fg = m * x(1);
+Fg = m * g;
 end
