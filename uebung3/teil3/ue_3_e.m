@@ -5,7 +5,7 @@ m = 80;
 g = 9.8;
 h0 = 3000;
 
-tspan = [0 1];
+tspan = [0 10];
 v0 = 0;
 p = [A cw rho_luft m g];
 
