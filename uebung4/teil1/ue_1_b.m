@@ -8,7 +8,7 @@ a = [C^2*R^2 3*C*R 1];
 % ====================
 w = linspace(0, 2*pi);	% vector of angular frequencies
 % Evaluate transfer function and take the amplitude
-g = polyval(b, exp(-1j*w)) ./ polyval(a, exp(-1j*w));
+g = polyval(b, exp(i*w)) ./ polyval(a, exp(i*w));
 
 % Calculation using freqz function
 % ================================
@@ -16,6 +16,7 @@ g = polyval(b, exp(-1j*w)) ./ polyval(a, exp(-1j*w));
 
 figure
 plot(w/pi, 20*log10(abs(g)))
+%plot(w/pi, 20*log10(angle(g)))
 hold on
 plot(w_2/pi, 20*log10(abs(g_2)), '--r')
 xlabel('Frequency response (\times\pi rad/sample)');
