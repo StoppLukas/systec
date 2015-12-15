@@ -15,7 +15,11 @@ K = 1;
 figure
 n = size(T, 2);
 for k = 1:n
-	H(k) = tf([K], [T(k) 1]);
+    if T(k) == 0
+    	H(k) = tf([1], [1 0]);
+    else
+        H(k) = tf([K], [T(k) 1]);
+    end
 	subplot(n, 2, 2*k-1);
 	pzmap(H(k));
 	title(sprintf('T = %d', T(k)));
