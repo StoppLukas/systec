@@ -1,0 +1,24 @@
+Systemtechnik Klausur Wintersemester 13/14
+1.
+a) Linearisierung  für Federpendel f=k*x³ mit x01= 1 und x02=2 
+b) Auslenkung bei x=2
+c) Skizze zum Pendel
+
+2.
+a) + b) Je eine Anfangswertproblem-Aufgabe. Wie in den Übungen
+
+3.
+a) Übertragungsfunktion zu y'' + 6y' + 9y = u'' - 4u'
+b) Verstärkung des Systems
+c) Pole und Nulstellen bestimmen
+d) Pol-NullstellenPlan zeichnen
+e) System stabil/grenzstabil/instabil?
+
+4. Reglerdiskusion:
+a)  Vor und Nachteile von P- PI- und PID-Reglern
+b) Was sind PD-Regler, Vor- und Nachteile
+c) Parameter von PID Regler mit ZieglerNichols Verfahren bestimmen anhand eines Schaubildes
+
+5. Regelkreisaufgabe wie in den Übungen
+
+6. Blockschaltalgebra wie in den Übungen
