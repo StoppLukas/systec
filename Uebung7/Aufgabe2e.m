@@ -18,4 +18,3 @@ step(G);
 s = tf('s');
 K = Kp + Ki / s + ( Kd * s) / (Tf * s + 1 );
 G_w = (K * G) / ( 1 + K * G);
-
